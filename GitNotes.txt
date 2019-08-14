@@ -9,10 +9,17 @@ git log --author="hn"		//shows commits made by author 	with "hn" in the the name
 				//if author tag is missing, it will show results from all authors
 
 git status			// tells if files have not been commited, modifications that have not been added, etc
-				//
+				
 
 git add fileName.txt		//adds single file to staging area
 				//if file already exists, but has been udated, sends the updated version to the staging area
 
-	
-	
+git diff 			//shows changes made to all files
+				//stops showing changes when added to staging area, even if not in repository yet
+
+git diff --staged		//compares staging area vs repository
+
+
+
+
+git.diff fileName.txt		//shows changes made to specific file
