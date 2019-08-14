@@ -33,5 +33,19 @@ git add newFileName --folowed by-- git rm filName
 				//git will look at this as though a file's name has been changed
 				//I tried in opposite order and it thinks things have been added and deleted, not renamed this way
 
+git mv fileName newFileName	//easier to rename by moving it
+
+git commit -am			//allows one to skip the staging area,
+				//use only for simple changes --commits everything
+				//do nt sue if files have been deleted
+
+git checkout -- filename	//brings file from repository into working directoy
+
+git reset HEAD filename		//removes file from working directory
+
+
+
+
+
 
 
