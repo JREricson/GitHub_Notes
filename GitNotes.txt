@@ -6,10 +6,13 @@ git commit -m "we are makeing a commit. this is a message given about this commi
 
 git log --author="hn"		//shows commits made by author 	with "hn" in the the name
 				//will return nothing if no matching author
+				//if author tag is missing, it will show results from all authors
 
-git status			// tells if files have not been commited
+git status			// tells if files have not been commited, modifications that have not been added, etc
+				//
 
 git add fileName.txt		//adds single file to staging area
+				//if file already exists, but has been udated, sends the updated version to the staging area
 
 	
 	
