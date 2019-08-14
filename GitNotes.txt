@@ -1,4 +1,4 @@
-git add . 			// adds current directory to staging area-- 
+git add . 			// adds all files in current directory to staging area-- 
 				//a git file is also added to this directory
 
 git commit -m "we are makeing a commit. this is a message given about this commit"
