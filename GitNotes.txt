@@ -1,0 +1,15 @@
+git add . 			// adds current directory to staging area-- 
+				//a git file is also added to this directory
+
+git commit -m "we are makeing a commit. this is a message given about this commit"
+				//will add it to the repository
+
+git log --author="hn"		//shows commits made by author 	with "hn" in the the name
+				//will return nothing if no matching author
+
+git status			// tells if files have not been commited
+
+git add fileName.txt		//adds single file to staging area
+
+	
+	
